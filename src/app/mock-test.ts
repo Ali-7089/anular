@@ -1,4 +1,4 @@
-import { Task } from "./test"
+import { Task } from "./task"
 
 export const TASK:Task[] =[
     {
@@ -25,4 +25,10 @@ export const TASK:Task[] =[
         day:'May 8th at 6am',
         reminder:true
     },
+    {
+        id:5,
+        text:'joging',
+        day:'May 8th at 6am',
+        reminder:true
+    }
 ]

@@ -1,4 +1,5 @@
-<div class="task">
-    <h3 style="display: flex; justify-content: space-between;">{{Task.text}} <fa-icon (click)="onDelete(Task.id)" [ngStyle]="{'color':'red'}" [icon]="faTimes"></fa-icon> </h3>
+<div [ngClass]="{ reminder : Task.reminder}" (dblclick) = "ontoggle(Task)" class="Task">
+    <h3 style="display: flex; justify-content: space-between;">{{Task.text}} <fa-icon [ngStyle]="{'color':'red'}" (click)="onDelete(Task)" [icon]="faTimes"></fa-icon> </h3>
     <p>{{Task.day}}</p>
+     
 </div>

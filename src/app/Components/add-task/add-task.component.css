@@ -1,0 +1,13 @@
+.form-control:not(:nth-child(3)){
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+    border: none;
+}
+
+.form-control-check{
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
