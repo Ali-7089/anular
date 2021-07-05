@@ -17,12 +17,6 @@
       "text": "Doctor's Meewting",
       "day": "May 7th at 10am",
       "reminder": false
-    },
-    {
-      "text": "playing Cricket",
-      "day": "May 7th at 5pm ",
-      "reminder": false,
-      "id": 4
     }
   ]
 }
